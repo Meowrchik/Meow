@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы</title>
+    <link rel="stylesheet" type="text/css" href="Style.css"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a href="Главная.html"><img src="img/Лого.jpg" alt="Логотип Мявушка"></a>
+                <nav class="header-menu">
+                    <a href="Главная.html">Главная</a>
+                    <a href="#">Каталог</a>
+                    <a href="Акции.html">Акции</a>
+                    <a href="Отзывы.html" class="link_active">Отзывы</a>
+                    <a href="Контакты.html">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <h2>Отзывы о нашем зоомагазине</h2>
+        <!-- Радиокнопки для переключения отзывов -->
+        <input type="radio" name="review-selector" id="review1" class="review-radio" checked>
+        <input type="radio" name="review-selector" id="review2" class="review-radio">
+        <input type="radio" name="review-selector" id="review3" class="review-radio">
+        
+        <div class="reviews-container">
+            <!-- Первый отзыв -->
+            <div class="review">
+                <h4>Сидоров И. А.</h4>
+                <p>Пользуюсь услугами зоомагазина «Мявушка» уже более полугода и хочу поделиться своими впечатлениями. Да, цены здесь действительно не самые низкие на рынке, но я абсолютно уверен, что качество товаров и уровень сервиса полностью оправдывают каждую потраченную копейку! Регулярно заказываю корм для своей овчарки с доставкой на дом — курьеры всегда приезжают точно в оговоренное время, что очень удобно для работающего человека. Ни разу не сталкивался с проблемами сроков годности или поврежденными упаковками. Все товары поступают в идеальном состоянии.</p>
+            </div>
+            
+            <!-- Второй отзыв -->
+            <div class="review">
+                <h4>Петрова М. К.</h4>
+                <p>Очень довольна обслуживанием в вашем магазине! Заказывала корм для кошки и аксессуары. Доставка быстрая, товары качественные. Особенно хочу отметить вежливость курьера и оперативность работы call-центра. Мой кот просто в восторге от новой лежанки! Буду рекомендовать ваш магазин всем знакомым.</p>
+            </div>
+            
+            <!-- Третий отзыв -->
+            <div class="review">
+                <h4>Козлов В. С.</h4>
+                <p>Пользуюсь услугами «Мявушки» больше года. Ни разу не было никаких нареканий! Всегда свежие корма, большой выбор аксессуаров для животных. Недавно покупали переноску для кота — качество отличное. Спасибо за заботу о наших питомцах и высокий уровень сервиса!</p>
+            </div>
+        </div>
+
+        <!-- Кнопки переключения отзывов -->
+        <div class="review-controls">
+            <label for="review1" class="review-btn"></label>
+            <label for="review2" class="review-btn"></label>
+            <label for="review3" class="review-btn"></label>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <img src="img/vk.png" alt="ВКонтакте">
+                <img src="img/tg.png" alt="Телеграм">
+                <img src="img/tt.png" alt="ТикТок">
+            </div>
+            <div class="footer-contacts">
+                <div class="footer-email">myavushkashop@gmail.com</div>
+                <div class="footer-phone">+7 (900) 555-38-25</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
